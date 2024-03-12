@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ODIN-WEATHER-APP</title>
+</head>
+
+<body>
+  <label for="location">Location</label>
+  <input type="text" name="location" id="location">
+  <button class="set-location-btn">Set</button>
+  <span class="set-location-error"></span>
+
+  <fieldset class="unit-radio">
+    <legend>Unit</legend>
+    <div>
+      <label for="celsius">Celsius</label>
+      <input type="radio" name="unit" id="celsius" checked>
+    </div>
+    <div>
+      <label for="fahrenheit">Fahrenheit</label>
+      <input type="radio" name="unit" id="fahrenheit">
+    </div>
+  </fieldset>
+
+  <p class="current-location">Current Location: <span></span></p>
+  <p class="current-temp">Current Temperature: <span></span></p>
+  <p class="current-feelslike">Feels like: <span></span></p>
+
+  <p class="current-condition">Current Condition: <span></span></p>
+  <img class="condition-img" src="#" alt="condition">
+</body>
+
+</html>
